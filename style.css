@@ -209,3 +209,20 @@ footer .container div:nth-child(2) span i{
   position: relative;
   top: 2px;
 }
+
+footer .fixed{
+  position: fixed;
+  bottom: 0;
+  right: 150px;
+  min-width: 80px;
+  text-align: center;
+
+}
+footer .fixed a{
+  padding: 30px;
+  position: relative;
+}
+/* footer .fixed a{
+  text-decoration: none;
+  color: white;
+} */
