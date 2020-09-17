@@ -1,3 +1,56 @@
-body{
+/* general style */
+.container{
+  width: 1120px;
+  margin: 0 auto;
   background-color: green;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float_colmn{
+  float: left;
+}
+
+.colm_3box{
+  width: calc(100%/3);
+}
+/* topography */
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+h1, h2, h3{
+  font-weight: 500;
+  color: white;
+}
+
+
+/* HEADER */
+header{
+  background-color: blue;
+}
+.colm_3box:first-child{
+  width: 10%;
+  background-color: red;
+}
+
+.colm_3box:nth-child(2), .colm_3box:nth-child(3){
+  width: 45%;
+  background-color: orange;
+}
+
+/* lista nav menu */
+.colm_3box nav ul li{
+  display: inline-block;
+}
+
+.colm_3box nav ul li a{
+  text-decoration: none;
+  color: white;
 }
