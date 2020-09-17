@@ -25,6 +25,10 @@
   width: calc(100%/3);
 }
 
+.colm_2box{
+  width: 50%;
+}
+
 /* bottone */
 .btn{
   border: solid 1px white;
@@ -148,4 +152,32 @@ section:nth-child(2) .container .colm_3box h2{
 
 section:nth-child(2) .container .colm_3box img{
   height: 100px;
+}
+
+
+/* sezione3:"testa il tuo inglese" */
+.we .container .colm_2box img{
+  height: 350px;
+}
+
+.we .container .colm_2box {
+  text-align:left;
+  padding: 50px;
+}
+
+.we .container .colm_2box:nth-child(2){
+  width: 40%;
+}
+
+.we .container .colm_2box h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.we .container .colm_2box p{
+  margin-bottom: 10px;
+}
+
+.we .container .colm_2box a{
+  color: blue;
 }
