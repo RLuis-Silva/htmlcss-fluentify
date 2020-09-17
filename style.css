@@ -25,10 +25,14 @@
   width: calc(100%/3);
 }
 
+/* bottone */
 .btn{
   border: solid 1px white;
   line-height: 30px;
   border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
 }
 
 .btn_green{
@@ -36,11 +40,16 @@
   border: 0;
 }
 
+.btn_big{
+  padding: 15px;
+}
+
 /* topography */
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: white;
+  font-size: 14px;
 }
 
 h1, h2, h3{
@@ -58,11 +67,13 @@ h1, h2, h3{
 /* HEADER */
 header{
   background-color: #0c325a;
+  background-image: url(img/background-header.png);
+  background-size: 1000px; /* ridimensiona l'img */
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: right bottom;
 }
 
-header .header_up .container{
-  background-image: url(img/background-header.png);
-}
 .colm_3box:first-child{
   width: 10%;
   /* background-color: red; */
@@ -96,4 +107,15 @@ header .header_up .container{
 
 .colm_3box nav ul{
   padding-right: 0;
+}
+
+/* header down */
+.header_down .container .titolo_header{
+  width: 50%;
+  margin-top: 100px;
+  /* background-color: orange; */
+}
+.header_down .container h1{
+  font-size: 45px;
+  margin-bottom: 30px;
 }
