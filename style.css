@@ -74,18 +74,18 @@ header{
   background-position: right bottom;
 }
 
-.colm_3box:first-child{
+.header_up .colm_3box:first-child{
   width: 10%;
   /* background-color: red; */
 }
 
-.colm_3box:nth-child(2){
+.header_up .colm_3box:nth-child(2){
   width: 55%;
   /* background-color: orange; */
   text-align: center;
 }
 
-.colm_3box:last-child{
+.header_up .colm_3box:last-child{
   width: 35%;
   /* background-color: orange; */
 }
@@ -122,9 +122,9 @@ header{
 }
 
 
-/* main */
+/* MAIN */
 
-/* sezione "scuole di lingua" */
+/* sezione1: "scuole di lingua" */
 main section:first-child{
   text-align: center;
   background-color: #d3d3d3;
@@ -133,4 +133,19 @@ main section:first-child{
 
 main section:first-child h2{
   margin-bottom: 7px;
+}
+
+/* sezione2: servizi */
+section:nth-child(2) .container .colm_3box{
+  padding: 30px;
+  text-align: center;
+}
+
+section:nth-child(2) .container .colm_3box h2{
+  color: #7cbb02;
+  margin-bottom: 10px;
+}
+
+section:nth-child(2) .container .colm_3box img{
+  height: 100px;
 }
