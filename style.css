@@ -56,7 +56,9 @@ body{
   font-size: 16px;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3{
   font-weight: 500;
   color: black;
 }
@@ -114,6 +116,9 @@ header{
 }
 
 /* header down */
+.header_down .container{
+  text-align: left;
+}
 .header_down .container .titolo_header{
   width: 50%;
   margin-top: 100px;
@@ -180,4 +185,27 @@ section:nth-child(2) .container .colm_3box img{
 
 .we .container .colm_2box a{
   color: blue;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #d3d3d3;
+  height: 150px;
+  padding: 50px;
+}
+
+footer .container div:last-child, div:nth-child(2){
+  text-align: right;
+}
+
+footer .container div:nth-child(2) span{
+  text-decoration: underline;
+  padding-left: 25px;
+}
+
+footer .container div:nth-child(2) span i{
+  margin-left: 30px;
+  position: relative;
+  top: 2px;
 }
