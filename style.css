@@ -1,8 +1,14 @@
 /* general style */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utilities */
 .container{
   width: 1120px;
   margin: 0 auto;
-  background-color: green;
 }
 
 .clearfix{
@@ -18,6 +24,18 @@
 .colm_3box{
   width: calc(100%/3);
 }
+
+.btn{
+  border: solid 1px white;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+.btn_green{
+  background-color: #7cbb02;
+  border: 0;
+}
+
 /* topography */
 body{
   font-family: 'Roboto', sans-serif;
@@ -30,27 +48,52 @@ h1, h2, h3{
   color: white;
 }
 
+.header_up{
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 50px;
+}
+
 
 /* HEADER */
 header{
-  background-color: blue;
+  background-color: #0c325a;
+}
+
+header .header_up .container{
+  background-image: url(img/background-header.png);
 }
 .colm_3box:first-child{
   width: 10%;
-  background-color: red;
+  /* background-color: red; */
 }
 
-.colm_3box:nth-child(2), .colm_3box:nth-child(3){
-  width: 45%;
-  background-color: orange;
+.colm_3box:nth-child(2){
+  width: 55%;
+  /* background-color: orange; */
+  text-align: center;
+}
+
+.colm_3box:last-child{
+  width: 35%;
+  /* background-color: orange; */
 }
 
 /* lista nav menu */
 .colm_3box nav ul li{
   display: inline-block;
+  padding: 0 8px;
 }
 
 .colm_3box nav ul li a{
   text-decoration: none;
   color: white;
+}
+
+.colm_3box nav ul{
+  padding-left: 0;
+}
+
+.colm_3box nav ul{
+  padding-right: 0;
 }
