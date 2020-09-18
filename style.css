@@ -23,7 +23,7 @@ h3{
 .header_up{
   text-transform: uppercase;
   font-size: 12px;
-  line-height: 50px;
+  line-height: 70px;
 }
 
 /* utilities */
@@ -102,11 +102,34 @@ header{
   padding: 0 8px;
 }
 
+.colm_3box img{
+  vertical-align: middle;
+}
+
 .colm_3box nav ul li a{
   text-decoration: none;
   color: white;
 }
 
+/* funziona */
+.colm_3box nav ul li:not(.btn):hover a{
+  color: orange;
+}
+
+/* non funziona */
+/* .colm_3box nav ul li a:not(.btn):hover{
+  color: orange;
+} */
+
+/* funziona */
+.colm_3box nav ul li a:not(.btn):focus{
+  color: aqua;
+}
+
+/* funziona */
+.colm_3box nav ul li:not(.btn):active a {
+  background-color: violet;
+}
 .colm_3box nav ul{
   padding-left: 0;
 }
@@ -130,6 +153,7 @@ header{
   margin-top: 100px;
   /* background-color: orange; */
 }
+
 .header_down .container h1{
   font-size: 45px;
   margin-bottom: 30px;
@@ -227,6 +251,7 @@ footer .fixed a{
   padding: 30px;
   position: relative;
 }
+
 /* footer .fixed a{
   text-decoration: none;
   color: white;
